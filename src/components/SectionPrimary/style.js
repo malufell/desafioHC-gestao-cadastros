@@ -13,8 +13,8 @@ export const SectionSecondary = styled.section`
     display: grid;
     grid-template-columns: 50% 50%;
     .imageBox {
-        padding-left: 30%;
-      }
+      padding-left: 30%;
+    }
     .contentBox {
       padding-right: 30%;
     }
@@ -22,15 +22,13 @@ export const SectionSecondary = styled.section`
 `;
 
 export const BoxImage = styled.article`
-  width: auto;
-  height: 100%;
-  margin: auto;
   img {
-    height: 400px;
+    max-height: 400px;
   }
 `;
 
 export const BoxContent = styled.article`
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,6 +48,44 @@ export const SubTitle = styled.span`
   margin: 10px auto;
 `;
 
+export const BoxEmail = styled.div`
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10% 0 10%;
+  input {
+    min-width: 50px;
+    height: 100%;
+    background-color: #f4f4f4;
+    color: #333333;
+    border: 0;
+    border-radius: 100px;
+    margin: 1% 0 1% 0;
+    padding: 10px 16px;
+    outline: none;
+    ::placeholder {
+      color: #333333;
+      opacity: 0.8;
+    }
+    &:hover {
+      background-color: #e8f0f2;
+    }
+  }
+
+  button {
+    background-color: #1b262c;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 100px;
+    border: 0;
+    margin: 1% 0 1% 0;
+    padding: 10px 12px;
+    cursor: pointer;
+    outline: none;
+  }
+`;
+
 export const MensagemConfirmacao = styled.span`
   background-color: #4aa96c;
   color: #e8f0f2;
@@ -67,38 +103,4 @@ export const MensagemErro = styled.span`
   font-weight: bold;
   margin: 10px auto;
   padding: 2px 10px 2px 10px;
-`;
-
-export const BoxEmail = styled.div`
-  width: 300px;
-  height: 50px;
-  background-color: #e8f0f2;
-  display: flex;
-
-  input {
-    width: 100%;
-    height: 100%;
-    background-color: #f4f4f4;
-    color: #333333;
-    border: 0;
-    padding: 0 16px;
-    outline: none;
-    ::placeholder {
-      color: #333333;
-      opacity: 0.8;
-    }
-    &:hover {
-      background-color: #E8F0F2;
-    }
-  }
-
-  button {
-    background-color: #1b262c;
-    color: #ffffff;
-    font-weight: bold;
-    border: 0;
-    padding: 0 12px;
-    cursor: pointer;
-    outline: none;
-  }
 `;
