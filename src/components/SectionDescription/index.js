@@ -5,7 +5,7 @@ export default function SectionDescription() {
   return (
     <S.SectionDescription>
       <S.Box className="imageBox">
-        <a href="https://www.instagram.com/p/CQCUuGohpcN/" target="_blank" rel="noreferrer"><img src="../ronda-azul.png" alt="husky" /> </a>
+        <a href="https://www.instagram.com/p/CQCUuGohpcN/" target="_blank" rel="noreferrer"><img src="../ronda-azul.png" alt="cachorro da raça husky siberiano brincando com uma corda" /> </a>
       </S.Box>
 
       <S.Box className="descriptionBox">
