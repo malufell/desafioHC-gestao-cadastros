@@ -1,9 +1,9 @@
 import React from "react";
 import * as S from "./style";
 
-export default function SectionPrimary() {
+export default function SectionSecondary() {
   return (
-    <S.SectionPrimary>
+    <S.SectionSecondary>
       <S.Image>
         <S.Title>Coleiras</S.Title>
         <img
@@ -27,6 +27,6 @@ export default function SectionPrimary() {
         <img src="../lenco.png" alt="filhote da raça husky siberiano, da cor preto e branco, usando um lenço azul" />
         <S.Promo>60% OFF</S.Promo>
       </S.Image>
-    </S.SectionPrimary>
+    </S.SectionSecondary>
   );
 }

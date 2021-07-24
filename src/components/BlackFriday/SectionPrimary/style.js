@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const SectionSecondary = styled.section`
+export const SectionPrimary = styled.section`
   width: auto;
   height: auto;
   background-color: #3282b8;
@@ -8,6 +8,7 @@ export const SectionSecondary = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 
   @media (min-width: 769px) {
     display: grid;

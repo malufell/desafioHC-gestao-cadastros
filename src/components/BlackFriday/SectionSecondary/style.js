@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const SectionPrimary = styled.section`
+export const SectionSecondary = styled.section`
   width: auto;
   height: auto;
   background-color: #0f4c75;
@@ -9,6 +9,7 @@ export const SectionPrimary = styled.section`
   align-items: center;
   justify-content: center;
   padding: 2%;
+  text-align: center;
 
   @media(min-width: 769px) { 
     display: flex;
@@ -32,6 +33,12 @@ export const Image = styled.div`
   margin-top: 3%;
   margin-bottom: 3%;
   position: relative;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
 
   img:hover {
     opacity: 0.9;

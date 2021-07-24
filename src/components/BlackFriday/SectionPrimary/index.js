@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import * as S from "./style";
 
-function SectionSecondary() {
+function SectionPrimary() {
   const [ email, setEmail ] = useState("");
   const [ nome, setNome ] = useState("");
   const [ mensagemConfirmacao, setMensagemConfirmacao ] = useState(false);
@@ -20,7 +20,7 @@ function SectionSecondary() {
   }
 
   return (
-    <S.SectionSecondary>
+    <S.SectionPrimary>
       <S.BoxImage className="imageBox">
         <img src="../logo-azul-claro.png" alt="logo" />
       </S.BoxImage>
@@ -36,8 +36,8 @@ function SectionSecondary() {
         { mensagemConfirmacao ? <S.MensagemConfirmacao>E-mail registrado com sucesso!</S.MensagemConfirmacao> : " " }
         { mensagemErro ? <S.MensagemErro>Informe um e-mail válido</S.MensagemErro> : " " }
       </S.BoxContent>
-    </S.SectionSecondary>
+    </S.SectionPrimary>
   );
 }
 
-export default SectionSecondary;
+export default SectionPrimary;
