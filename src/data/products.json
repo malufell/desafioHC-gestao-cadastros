@@ -1,6 +1,6 @@
 [
     {
-      "title": "Peitoral colorido",
+      "name": "Peitoral colorido",
       "price": "R$ 39,90",
       "size": "G",
       "amount": 15,
@@ -8,7 +8,7 @@
       "descriptionImage": "peitoral colorido para cachorro"
     },
     {
-      "title": "Coleira",
+      "name": "Coleira",
       "price": "R$ 29,90",
       "size": "M",
       "amount": 50,
@@ -16,7 +16,7 @@
       "descriptionImage": "coleira para cachorro na cor vermelha"
     },
     {
-      "title": "Bandana",
+      "name": "Bandana",
       "price": "R$ 29,90",
       "size": "M",
       "amount": 50,
