@@ -1,0 +1,17 @@
+[
+    {
+      "name": "Malu",
+      "email": "malu@email.com",
+      "address": "Blumenau/SC"
+    },
+    {
+      "name": "João",
+      "email": "joao@email.com",
+      "address": "Gaspar/SC"
+    },
+    {
+      "name": "Cris",
+      "email": "cris@email.com",
+      "address": "São Leopoldo/RS"
+    }
+]

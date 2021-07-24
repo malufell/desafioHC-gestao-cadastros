@@ -1,19 +1,10 @@
-import './App.css';
-import SectionHeader from './components/SectionHeader';
-import SectionPrimary from './components/SectionPrimary';
-import SectionSecondary from './components/SectionSecondary';
-import SectionFooter from './components/SectionFooter';
-import SectionDescription from './components/SectionDescription';
+import React from "react";
+import Routes from "./routes";
 
 function App() {
+
   return (
-    <div className="App">
-      <SectionHeader />
-      <SectionPrimary />
-      <SectionSecondary />
-      <SectionDescription />
-      <SectionFooter/>
-    </div>
+    <Routes />
   );
 }
 
