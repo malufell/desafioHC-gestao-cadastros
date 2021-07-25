@@ -1,4 +1,4 @@
-# Desafio Hiring Coders#2 - Gestão de Cadastros
+# Desafio#2 Hiring Coders - Gestão de Cadastros
 
 - Criação de um sistema para cadastro de produtos e dados de clientes
   - Os dados de clientes, endereços e produtos devem estar devidamente estruturados
