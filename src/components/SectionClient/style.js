@@ -4,8 +4,9 @@ export const SectionClients = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   background-color: #39a2db;
+  min-height: 500px;
 
   @media (min-width: 769px) {
     width: 100%;
